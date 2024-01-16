@@ -2,17 +2,17 @@ import React from "react";
 
 import { Outlet } from "react-router-dom";
 
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
+import { HeaderComponent } from "./components/HeaderComponent";
+import { FooterComponent } from "./components/FooterComponent";
 
 export default function App() {
   return (
     <>
-      <Header />
+      <HeaderComponent />
       <main>
         <Outlet />
       </main>
-      <Footer />
+      <FooterComponent />
     </>
   );
 }

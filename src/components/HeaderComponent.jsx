@@ -3,7 +3,7 @@ import { Dialog, Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
-export const Header = () => {
+export const HeaderComponent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
