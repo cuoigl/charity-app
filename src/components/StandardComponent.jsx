@@ -32,10 +32,7 @@ export const StandardComponent = () => {
             className="border rounded shadow-sm mx-1 mt-1 bg-sky-200"
             style={{ minHeight: "225px" }}
           >
-            <div className="text-5xl ml-4 mt-2">
-              <FaRegAddressCard />
-            </div>
-            <div className="ml-4">
+            <div className="mx-8 text-5xl mt-4 font-bold">
               <h1>Tiêu chuẩn tham gia hiến máu</h1>
             </div>
           </div>
